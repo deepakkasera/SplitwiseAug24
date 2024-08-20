@@ -67,6 +67,12 @@ public class SettleUpService {
     }
 
     public List<Expense> settleUpGroup(Long groupId) {
+        /*
+        1. Get the group with the given groupId.
+        2. Get all the expenses for that group.
+        3. Call settleUp Algorithm for these expenses.
+         */
+
         return null;
     }
 }
